@@ -3,15 +3,17 @@
     font-family: 'open sans',sans-serif
 }
 /* frist banner */
-nav{
+  header{  
     background-image: url(./images/banner/banner3.png);
     position: absolute;
     width: 1600px;
     height: 808px;
     left: -34px;
-    top: 9px
+    top: 0;
+    
 }
-.nav-title{
+
+.div-title{
 margin-left: 70%;
 
 color: #FFFFFF;
@@ -25,7 +27,7 @@ text-align: right;
 font-size: 65px;
 
 }
-.nave-description{
+.div-description{
     color: #FFFFFF;
     font-size: 16px;
     text-align: right;
@@ -47,3 +49,142 @@ font-size: 65px;
    margin-top: 24px;
     
 }
+/* 2nd part */
+/* main-section */
+.main-section{
+    margin-left: 90px;
+   margin-top: 900px;
+   position: relative;
+   display: flex;
+   justify-content:center;
+}
+
+.my-photo{
+    /* position: absolute; */
+    width: 300px;
+    height: 400px;
+
+}
+.section-title{
+    color:#151414;
+    padding-top: 110px;
+    width: 700px;
+    font-size: 40px
+    line-height:46px;
+    
+
+}
+.section-description{
+    color:#444343;
+    width: 400px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+
+  
+}
+.tick-mark{
+  
+    list-style:circle;
+    list-style-position: inside;
+    
+}
+ul li{
+
+  
+  
+}
+/* my plan section */
+
+.skill-paln{
+    display: flex; 
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: bottom 200px; ;
+    
+}
+.My-Plans-title{
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 80px;
+}
+/* Transparent Backround */
+/* .
+    font-size: 16px;
+    margin-top: 0 auto;TP-Backround{
+    padding-top: 500px;
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+    
+
+    
+    
+}
+.btn-2{
+    width: 160px;
+    height: 64px;
+    background-color: rgb(221, 9, 9); 
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+}
+.TP-title{
+    margin-top: 0;
+    color: #73961b;
+    width: 700px;
+    font-size: 40px;
+    line-height: 46px;
+    margin-top: 0;
+}
+.gradient{
+   padding-top: 0;
+   
+}  */
+/* contact styles */
+.contact-bg-color{
+    background-color: #151414;
+}
+.contact{
+    
+    display: flex;
+    justify-content:space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.contact-title{
+    
+    color: #F8F8F8;
+    padding: 10;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+ .btn-3{
+    width: 100px;
+    height: 40px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+ }
+ .plan-imag{
+    display: flex;
+ }
+ .contact-description{
+    color: #FFFFFF;
+    padding-top: 15px;
+ }
+ .contact-description-2{
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+ 
